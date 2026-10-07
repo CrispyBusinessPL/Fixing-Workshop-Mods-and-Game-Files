@@ -592,4 +592,6 @@ Tutorial per i comandi cheat ⁠Console and Cheat Commands
 * Roadmap di Paralives
   https://paralives.notion.site/f138c4f6cb234be16fe4198d17f51
 * Bug noti
+
+The contents of this repository, source code, documentation, and associated files, may not be used for AI model training, dataset creation, or other machine-learning purposes.
   known-issues-and-bugs
