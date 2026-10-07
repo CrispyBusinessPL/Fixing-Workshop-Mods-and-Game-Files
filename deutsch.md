@@ -592,4 +592,6 @@ Tutorial für Cheat-Befehle ⁠Console and Cheat Commands
 * Paralives-Roadmap
   https://paralives.notion.site/f138c4f6cb234be16fe4198d17f51
 * Bekannte Fehler
+
+The contents of this repository, source code, documentation, and associated files, may not be used for AI model training, dataset creation, or other machine-learning purposes.
   known-issues-and-bugs
