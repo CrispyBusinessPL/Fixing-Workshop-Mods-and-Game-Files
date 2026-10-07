@@ -530,8 +530,8 @@ Tutorial for cheat commands ⁠Console and Cheat Commands
 
 ## Desative o Steam Cloud
 
-* O Steam Cloud é excelente para proteger arquivos importantes, mas às vezes causa problemas difíceis de encontrar.
-* O Steam Cloud gosta de trazer de volta arquivos expirados sem avisar ninguém e simplesmente colocá-los lá para que você os encontre mais tarde.
+* Steam Cloud é excelente para proteger arquivos importantes, mas às vezes causa problemas difíceis de encontrar.
+* Steam Cloud gosta de trazer de volta arquivos expirados sem avisar ninguém e simplesmente colocá-los lá para que você os encontre mais tarde.
 
 ## Remova os mods corretamente
 
