@@ -462,4 +462,7 @@ Paralines Launcher Plugin ⁠Paraline Launcher [Help | Bug R…
 
    * Tak: Przywróć ważne pliki z kopii utworzonej w kroku 1.
    * Nie: Spróbuj innych metod naprawienia problemu przed przywróceniem starych plików.
-6. Dodawaj do nowo wyg
+
+
+The contents of this repository, source code, documentation, and associated files, may not be used for AI model training, dataset creation, or other machine-learning purposes.
+7. Dodawaj do nowo wyg
