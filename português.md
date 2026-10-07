@@ -3,11 +3,11 @@
 * [Itens necessários](#itens-necessários)
 * [Identificar dados corrompidos](#identificar-dados-corrompidos)
 * [Como remover dados corrompidos](#como-remover-dados-corrompidos)
-* ["A solução habitual"](#a-solução-habitual)
-* [Prevenir corrupção de dados](#prevenir-corrupção-de-dados)
+* ["A correção usual"](#a-correção-usual)
+* [Prevenir a corrupção de dados](#prevenir-a-corrupção-de-dados)
 * [Mais recursos](#mais-recursos)
 
-> **Faça um backup completo dos seus arquivos de salvamento antes de tentar qualquer uma destas etapas!**
+> **Faça um backup completo dos seus arquivos de save antes de tentar qualquer uma destas etapas!**
 
 ---
 
@@ -15,7 +15,7 @@
 
 ## Pasta de Mods do Steam Workshop (Mods do Workshop)
 
-* Pode ser acessada clicando no ícone de pasta em um mod do Steam Workshop no Menu de Mods do Paralives.
+* Pode ser acessada clicando no ícone de pasta de um mod do Steam Workshop no menu de Mods do Paralives.
 * Navegando até:
 
 **Windows:**
@@ -32,7 +32,7 @@ C:\Program Files (x86)\Steam\steamapps\workshop\content\1118520\
 
 ## Pasta do Paralives (Mods locais)
 
-* Pode ser acessada clicando no ícone de pasta em um mod local no Menu de Mods do Paralives.
+* Pode ser acessada clicando no ícone de pasta de um mod local no menu de Mods do Paralives.
 * Navegando até:
 
 **Windows:**
@@ -49,16 +49,16 @@ C:\Users\USER\AppData\LocalLow\Paralives\Paralives
 
 ## Paralives\Player.Log
 
-* Pode ser lido com qualquer software de leitura de arquivos de texto, como Notepad ou Notepad++.
+* Pode ser lido com qualquer software de leitura de arquivos de texto, como o Notepad ou Notepad++.
 * Localizado na pasta Paralives\Paralives.
-* Fornece registros da sessão atual ou da última sessão jogada do Paralives.
+* Fornece registros da sessão atual ou da última sessão do Paralives.
 
 ## Pasta Paralives\MySavedGames.mod
 
-* Pasta que contém todos os jogos salvos atuais e salvamentos automáticos.
+* Pasta que contém todos os saves atuais e autosaves.
 * Localizada na pasta Paralives\Paralives.
 * Esta pasta é mais importante do que qualquer outra.
-* Faça regularmente uma cópia completa desta pasta em um local seguro fora dos arquivos do jogo!
+* Faça regularmente uma cópia completa desta pasta e mantenha-a em um local seguro fora dos arquivos do jogo!
 
 ## Pasta Paralives\MyPremadeHouseholds.mod
 
@@ -72,83 +72,83 @@ C:\Users\USER\AppData\LocalLow\Paralives\Paralives
 
 * Roupas salvas na biblioteca.
 
-## Pasta Paralives\Local.mod e 0.mod
+## Pastas Paralives\Local.mod e 0.mod
 
-* Armazena configurações do jogo, como amostras de cores personalizadas.
+* Armazenam configurações do jogo, como paletas de cores personalizadas.
 
 ---
 
 # Identificar dados corrompidos
 
-Dados corrompidos são compostos por arquivos que foram alterados e já não estão no formato ou na sequência que o jogo espera encontrar.
+Dados corrompidos são constituídos por arquivos que foram alterados e já não estão no formato ou na sequência que o jogo espera encontrar.
 
 ## Arquivos desatualizados
 
-* O jogo foi atualizado e esses arquivos já não estão em conformidade com a sintaxe atual.
-* Embora isso possa acontecer ocasionalmente com mods, quase todos os plugins de injeção de código do bepinex ficam desatualizados após uma atualização do jogo.
-* Se um plugin bepinex estiver instalado, mas os mods ainda não estiverem funcionando, o plugin pode estar causando mais problemas do que resolvendo.
+* O jogo foi atualizado e esses arquivos já não estão de acordo com a sintaxe atual.
+* Embora isso possa acontecer ocasionalmente com mods, quase todos os plugins de injeção de código do BepInEx ficam desatualizados após uma atualização do jogo.
+* Se um plugin BepInEx estiver instalado, mas os mods ainda não estiverem funcionando, o plugin pode estar causando mais problemas do que ajudando.
 
 ## Arquivos modificados incorretamente
 
-* Estes foram modificados por um jogador, modder ou até mesmo pelo mecanismo do jogo e agora estão incorretos.
-* Isso acontece quando mods ou plugins são usados e depois removidos.
+* Estes arquivos foram modificados por um jogador, modder ou até mesmo pelo mecanismo do jogo e agora estão incorretos.
+* Isso ocorre quando mods ou plugins são usados e depois removidos.
 
-Por exemplo, um mod usado para adicionar uma roupa personalizada é removido, mas a roupa continua identificada nos arquivos do jogo.
+Por exemplo, um mod usado para adicionar uma roupa personalizada é removido, mas a roupa continua sendo identificada nos arquivos do jogo.
 
-Pode ser impossível remover alguns mods sem corromper um arquivo de salvamento.
+Pode ser impossível remover alguns mods sem corromper um arquivo de save.
 
 ## Arquivos movidos incorretamente
 
 * Os arquivos são frequentemente movidos pelo jogador, pelo mecanismo do jogo ou pelo Steam, e algumas partes do arquivo acabam sendo deixadas para trás ou excluídas.
 
-## Como o jogo vai me informar quais arquivos estão corrompidos?
+## Como o jogo me informará quais arquivos estão corrompidos?
 
-O mecanismo do jogo tentará informar o usuário quando houver um erro por meio de notificações diretas e indiretas.
+O mecanismo do jogo tentará informar ao usuário quando houver um erro por meio de notificações diretas e indiretas.
 
 ### Diretas:
 
-* Janelas pop-up na tela
+* Pop-ups na tela
 * Notificações no console
 * Eventos no player.log
 
 ### Indiretas:
 
+* Cintilação
 * Piscadas
-* Flashes
 * Travamentos momentâneos
 * Lag
 * Crashes
-* Cancelamento de operações
+* Operações sendo canceladas
 
-## Lendo o Error Console e o Player.Log
+## Lendo o Console de Erros e o Player.Log
 
-Os registros do error console e do player.log se sobrepõem apenas parcialmente, portanto é importante verificar ambos ao tentar identificar um erro.
+Os relatórios do console de erros e do player.log se sobrepõem apenas parcialmente, portanto é importante verificar ambos ao tentar identificar um erro.
 
-É importante identificar o erro inicial e ignorar os erros adicionais causados pelo primeiro erro. Ao ler o registro de erros, tente corrigir os erros de cima para baixo, em ordem sequencial.
+É importante identificar o erro inicial e ignorar os erros adicionais causados pelo primeiro erro. Ao ler o log de erros, tente corrigir os erros de cima para baixo, em ordem sequencial.
 
 Se vários erros forem introduzidos ao mesmo tempo, pode ser muito difícil diagnosticar o problema. É importante fazer apenas um pequeno número de alterações entre os testes.
 
-Se o jogo estiver funcionando normalmente, anote os erros no registro para que possam ser descartados posteriormente quando algo apresentar problemas.
+Se o jogo estiver funcionando normalmente, anote os erros no log para que eles possam ser descartados posteriormente caso algo apresente problemas.
 
-### ERROR CONSOLE
+### CONSOLE DE ERROS
 
-* O error console é acessado no jogo como uma aba no menu de cheats.
+* O console de erros pode ser acessado dentro do jogo como uma aba no menu de cheats.
 * Ele não pode ser usado se o jogo não carregar.
 
 1. Pressione Ctrl+Shift+C para abrir o menu de cheats.
-2. Pressione a seta para mudar para a aba do console.
-3. O console é organizado em três categorias de importância.
-4. Apenas os erros vermelhos são importantes para este tutorial.
+2. Pressione a seta para alternar para a aba do console.
+3. O console é dividido em três categorias de importância.
+4. Apenas os erros vermelhos são importantes para os fins deste tutorial.
 
 ### PLAYER.LOG & PLAYER-PREV.LOG
 
 * Este arquivo registra as ações realizadas pelo mecanismo de jogo Unity que executa o Paralives.
-* Player.log é sobrescrito sempre que o jogo é iniciado e movido para Player-prev.log.
+* O Player.log é sobrescrito cada vez que o jogo é iniciado e movido para Player-prev.log.
 * Ele está localizado na pasta de mods locais Paralives\Paralives.
-* Mais informações podem ser adicionadas ao registro ativando opções no painel de controle. Muitas opções podem rapidamente fazer o registro ficar muito grande.
-* Se algo no registro for importante, faça uma cópia!
+* Mais informações podem ser adicionadas ao log ativando opções no painel de controle. Muitas opções podem rapidamente fazer com que o log fique muito grande.
+* Se algo no log for importante, faça uma cópia!
 
-### Bons erros (pelo menos não ruins):
+### Erros bons (ou pelo menos não ruins):
 
 ```text
 + Meta cache is expired
@@ -170,13 +170,13 @@ Se o jogo estiver funcionando normalmente, anote os erros no registro para que p
 - Could not register Paralives Town.saved
 ```
 
-> Observação: Na versão 1.7, há três novos erros vermelhos no console e no player.log que não parecem afetar negativamente o desempenho do jogo.
+> Nota: Na versão 1.7, há três novos erros vermelhos no console e no player.log que não parecem afetar negativamente o desempenho do jogo.
 >
 > * `+ System Exception: Invalid Path...`
 > * `+ Runtime data is null...`
 > * `+ OperationException: Addressables...`
 
-> Observação: Na versão 1.8A, o .fbx importer não funcionava corretamente e ficava preso na tela de importação de assets.
+> Nota: Na versão 1.8A, o importador de .fbx não funcionava corretamente e ficava travado na tela de importação de assets.
 
 ---
 
@@ -184,29 +184,29 @@ Se o jogo estiver funcionando normalmente, anote os erros no registro para que p
 
 Os tipos de problemas que estão ocorrendo em nível técnico.
 
-## Null Reference
+## Referência nula
 
-* Às vezes chamado de referência de ponteiro nulo.
-* Qualquer erro indicando que uma configuração, item, mesh ou valor não pôde ser encontrado.
-* O jogo faz referência a um objeto que não consegue encontrar ou não conseguiu entender o que encontrou.
+* Às vezes chamada de referência de ponteiro nulo.
+* Qualquer erro indicando que uma configuração, item, malha ou valor não pôde ser encontrado.
+* O jogo faz referência a um objeto que não consegue encontrar ou não conseguiu interpretar.
 
-> Observação: O jogo consegue lidar com algumas referências nulas e várias delas fazem parte da versão de acesso antecipado do jogo.
+> Nota: O jogo consegue lidar com algumas referências nulas, e várias delas fazem parte da versão de acesso antecipado do jogo.
 
-## Out of Bounds
+## Fora dos limites
 
 * O jogo recebeu um valor fora do intervalo esperado.
 * Se o jogo espera um valor entre 0 e 10, mas recebe 10842, isso pode causar um erro.
 
-## Translation
+## Tradução
 
-* O jogo tentou corrigir um arquivo determinado como corrompido e o resultado estava incorreto.
+* O jogo tentou corrigir um arquivo que foi determinado como corrompido, mas o resultado estava incorreto.
 
-Por exemplo, um problema com arquivos .tmp ⁠.mod.meta e .tmp
+Por exemplo, um problema envolvendo arquivos .tmp, .mod.meta e .tmp.
 
-## Syntax
+## Sintaxe
 
-* O jogo foi atualizado e o mod já não está em conformidade com os padrões definidos pelo jogo. Mais comum com plugins de injeção de código Bepinex.
-* Alguns mods criados quando o jogo foi lançado estão sem dois-pontos no arquivo de texto.
+* O jogo foi atualizado e o mod não está mais de acordo com os padrões definidos pelo jogo. Isso é mais comum com plugins de injeção de código BepInEx.
+* Alguns mods criados quando o jogo foi lançado estão sem dois-pontos nos arquivos de texto.
 
 ---
 
@@ -222,9 +222,9 @@ Quando a causa do erro é desconhecida, o objetivo é correlacionar os sintomas 
 
 * O jogo não consegue chegar ao menu principal do Paralives
 * A tela fica preta
-* O jogo trava ao iniciar o jogo pelo Steam
+* O jogo fecha ao iniciar pelo Steam
 * Um erro aparece ao iniciar o jogo pelo Steam
-* O jogo fica preso em uma imagem de nuvens.
+* O jogo fica travado em uma imagem de nuvens.
 
 ### Possíveis soluções
 
@@ -234,89 +234,89 @@ Quando a causa do erro é desconhecida, o objetivo é correlacionar os sintomas 
 * Crie uma exceção para o Paralives no antivírus.
 * Verifique o player.log em busca de erros na pasta de mods locais paralives/paralives.
 
-## Cat B — Importando assets
+## Cat B — Importar assets
 
 ### Sintomas
 
-* Preso na importação de assets
+* Travado na importação de assets
 
 ### Possível causa
 
-Um arquivo de mod está ilegível.
+Um arquivo de mod não pode ser lido.
 
 ### Possíveis soluções
 
 * Remova os mods mais recentes da pasta de mods locais paralives/paralives ou das pastas do Steam Workshop até que o problema seja resolvido.
 * Verifique os arquivos do jogo.
 
-## Cat C — Selecionar um salvamento
+## Cat C — Selecionar um save
 
 ### Sintomas
 
-* O jogo retorna ao menu principal ao tentar carregar um salvamento
-* O arquivo de salvamento está branco
+* O jogo retorna ao menu principal ao tentar carregar um save
+* O arquivo de save aparece em branco
 
 ### Possível causa
 
-O arquivo de salvamento possui nomes de arquivos incorretos, está sem arquivos ou está ilegível.
+O arquivo de save possui nomes de arquivos incorretos, está com arquivos faltando ou não pode ser lido.
 
 ### Possível solução
 
-Comece verificando se o nome do salvamento corresponde aos arquivos meta dentro dele e se o salvamento contém todos os componentes necessários.
+Comece verificando se o nome do save corresponde aos arquivos meta dentro dele e se o save contém todos os componentes necessários.
 
-## Cat D — Carregar um salvamento
+## Cat D — Carregar um save
 
 ### Sintomas
 
-* O jogo trava durante o carregamento do salvamento
-* O jogo permanece na tela de carregamento para sempre
+* O jogo trava durante o carregamento do save
+* O jogo permanece na tela de carregamento indefinidamente
 
 ### Possível causa
 
-Mod corrompido, um mod foi removido incorretamente ou corrupção do arquivo de salvamento, como um erro de referência nula.
+Mod corrompido, mod removido incorretamente ou corrupção do arquivo de save, como um erro de referência nula.
 
-Pode ser impossível remover alguns mods sem corromper um arquivo de salvamento.
+Pode ser impossível remover alguns mods sem corromper um arquivo de save.
 
 ### Possível solução
 
-Teste se os erros persistem em um novo jogo salvo.
+Teste se os erros continuam ocorrendo em um novo save.
 
-## Cat E — Modo Live
+## Cat E — Modo de jogo
 
 ### Sintomas
 
-* O jogo trava ou congela ao abrir um menu no modo Live
-* O jogo trava ou congela ao realizar uma ação específica no modo Live
+* O jogo trava ou congela ao abrir um menu no modo de jogo
+* O jogo trava ou congela ao realizar uma ação específica no modo de jogo
 
 ### Possível causa
 
-Mod corrompido, um mod foi removido incorretamente ou corrupção do arquivo de salvamento, como um erro de referência nula.
+Mod corrompido, mod removido incorretamente ou corrupção do arquivo de save, como um erro de referência nula.
 
-Pode ser impossível remover alguns mods sem corromper um arquivo de salvamento.
+Pode ser impossível remover alguns mods sem corromper um arquivo de save.
 
 ### Possível solução
 
-Teste se os erros persistem em um novo jogo salvo.
+Teste se os erros continuam ocorrendo em um novo save.
 
 ## Cat F — Menus
 
 ### Sintomas
 
-* O menu do jogo não abre quando clicado
-* O menu do jogo fica em branco quando clicado
+* O menu do jogo não abre ao clicar
+* O menu do jogo aparece em branco ao clicar
 * O menu do jogo não fecha
 
 ### Possível causa
 
-Mod corrompido, um mod foi removido incorretamente ou corrupção do arquivo de salvamento, como um erro de referência nula.
+Mod corrompido, mod removido incorretamente ou corrupção do arquivo de save, como um erro de referência nula.
 
-Pode ser impossível remover alguns mods sem corromper um arquivo de salvamento.
+Pode ser impossível remover alguns mods sem corromper um arquivo de save.
 
 ### Possível solução
 
-Teste se os erros persistem em um novo jogo salvo.
+Teste se os erros continuam ocorrendo em um novo save.
 
-## Cat G — Instalando mods
+## Cat G — Instalar mods
 
 ### Sintomas
 
@@ -324,8 +324,8 @@ Teste se os erros persistem em um novo jogo salvo.
 
 ### Possíveis soluções
 
-* Verifique as pastas de mods do Steam e locais em busca de arquivos parciais.
-* Exclua arquivos de mods corrompidos que estejam impedindo o download.
+* Verifique as pastas de mods do Steam e Local em busca de arquivos parciais.
+* Exclua os arquivos de mods corrompidos que estejam impedindo o download.
 
 ## Cat H — Mods ausentes
 
@@ -337,9 +337,9 @@ Teste se os erros persistem em um novo jogo salvo.
 ### Possíveis soluções
 
 * Verifique se há mods corrompidos.
-* Verifique se há arquivos de mods duplicados.
+* Verifique se existem arquivos de mods duplicados.
 
-## Cat I — Validando mods
+## Cat I — Validar mods
 
 ### Sintomas
 
@@ -348,7 +348,7 @@ Teste se os erros persistem em um novo jogo salvo.
 * O personagem com itens de mods desapareceu
 * Os itens de mods parecem estranhos
 * Os itens de mods interagem de maneira inesperada
-* Os itens de mods têm a cor, forma ou tamanho incorretos
+* Os itens de mods apresentam a cor, forma ou tamanho incorretos
 
 ### Possível solução
 
@@ -356,49 +356,49 @@ Verifique se há mods corrompidos.
 
 ---
 
-> **Faça um backup completo dos seus arquivos de salvamento antes de tentar qualquer uma destas etapas!**
+> **Faça um backup completo dos seus arquivos de save antes de tentar qualquer uma destas etapas!**
 
 ---
 
 # Como remover dados corrompidos
 
-Organizado por nível de dificuldade e complexidade.
+Ordenado por nível de dificuldade e complexidade.
 
 ## Fácil
 
-### Desative e ative os mods
+### Desativar e ativar mods
 
-* Às vezes os mods não são inicializados corretamente, o que pode ser corrigido desativando e ativando novamente apenas um mod usando o menu de mods dentro do jogo.
+* Às vezes, os mods não são inicializados corretamente, o que pode ser corrigido desativando e ativando novamente apenas um mod usando o menu de mods dentro do jogo.
 
-### Reinicie o Paralives
+### Reiniciar o Paralives
 
 * O jogo possui proteções contra dados corrompidos que são ativadas quando o jogo é iniciado.
-* Pode parecer bobo, mas reiniciar o jogo várias vezes pode ser eficaz em alguns cenários.
+* Isso pode parecer bobo, mas reiniciar o jogo várias vezes pode ser eficaz em alguns casos.
 
-### Inicie um novo jogo salvo
+### Iniciar um novo save
 
-* Se os erros forem muito complicados ou não puderem ser corrigidos, iniciar um novo salvamento pode ser a melhor opção.
+* Se os erros forem muito complicados ou não puderem ser corrigidos, iniciar um novo save pode ser a melhor opção.
 
-### Verifique os arquivos do jogo ou reinstale o jogo usando o Steam
+### Verificar os arquivos do jogo ou reinstalar o jogo usando o Steam
 
-* No cliente Steam, com o jogo encerrado:
+* No cliente Steam, com o jogo fechado:
 
-  * Steam > Paralives > Properties > Verify integrity of games files
+  * Steam > Paralives > Propriedades > Verificar integridade dos arquivos do jogo
 
-### Cancele a inscrição de todos os mods para limpar arquivos corrompidos
+### Assinar novamente todos os mods para limpar quaisquer arquivos corrompidos
 
-1. Adicione todos os mods inscritos a uma coleção personalizada
-2. Cancele a inscrição de todos os mods
-3. Inscreva-se em todos os mods da coleção
+1. Adicione todos os mods assinados a uma coleção personalizada.
+2. Cancele a assinatura de todos os mods.
+3. Assine novamente todos os mods da coleção.
 
-### Remova mods até que o mod corrompido seja removido
+### Remover mods até que o mod corrompido seja removido
 
 * Remova um mod por vez ou use o método 50/50 para remover metade dos mods até que o mod corrompido seja identificado.
-* Os mods ainda podem causar bugs mesmo quando desativados. Eles precisam ser completamente removidos movendo, cancelando a inscrição ou excluindo os arquivos do mod.
-* O jogo pode precisar ser reiniciado entre cada teste para garantir que os arquivos em cache sejam eliminados.
+* Os mods ainda podem causar bugs mesmo quando desativados. Eles precisam ser completamente removidos movendo, cancelando a assinatura ou excluindo os arquivos do mod.
+* O jogo pode precisar ser reiniciado entre cada teste para garantir que os arquivos armazenados em cache sejam eliminados.
 * Documente suas descobertas e anote quais mods funcionam!
 
-### Inscreva-se novamente nos mods lentamente para garantir que sejam instalados corretamente
+### Assinar novamente os mods lentamente para garantir que sejam instalados corretamente
 
 * A teoria é que instalar muitos mods de uma vez causa erros, então instale os mods lentamente.
 * O jogo foi projetado para instalar mods rapidamente, mas talvez haja algo nisso.
@@ -407,159 +407,156 @@ Organizado por nível de dificuldade e complexidade.
 
 ## Intermediário
 
-### Mova os mods do Steam Workshop para a pasta de mods locais Paralives\Paralives
+### Mover os mods do Steam Workshop para a pasta de mods locais Paralives\Paralives
 
-* Mods instalados localmente são interpretados de maneira diferente pelo mecanismo do jogo, o que pode corrigir o erro.
-* Com o jogo fechado, abra o explorador de arquivos e retorne à pasta de Mods do Steam Workshop:
+* Os mods instalados localmente são interpretados de maneira diferente pelo mecanismo do jogo, o que pode corrigir o erro.
+* Enquanto o jogo não estiver em execução, abra o explorador de arquivos e volte para a pasta de Mods do Steam Workshop:
 
   ```text
   C:\Program Files (x86)\Steam\steamapps\workshop\content\1118520\
   ```
-* Digite ".mod" na barra de pesquisa. Se não houver resultados, tente "*.mod".
+* Digite ".mod" na barra de pesquisa. Se nenhum resultado aparecer, tente "*.mod".
 * Isso retornará as pastas que contêm mods dentro da pasta de Mods do Steam.
 * Selecione, recorte e cole todas as pastas .mod na pasta de mods locais Paralives\Paralives.
 * Todas as pastas devem ser movidas de uma vez.
-* Depois, cancele a inscrição nos mods para impedir que o Steam os copie de volta.
-* Certifique-se de que a cópia na pasta de mods do Steam Workshop seja devidamente excluída, pois ter duas cópias do mesmo mod pode causar erros.
+* Em seguida, cancele a assinatura dos mods para impedir que o Steam os copie novamente.
+* Certifique-se de que a cópia na pasta do Steam Workshop tenha sido realmente excluída, pois ter duas cópias do mesmo mod pode causar erros.
 
-### Exclua quaisquer arquivos restantes nas pastas de mods do Steam Workshop
+### Excluir quaisquer arquivos restantes nas pastas de mods do Steam Workshop
 
-* Retorne a workshop\content\1118520\ e remova quaisquer arquivos que não tenham sido devidamente descartados.
+* Volte para workshop\content\1118520\ e remova quaisquer arquivos que não tenham sido devidamente eliminados.
 * Preste atenção aos detalhes, pois pequenos erros serão difíceis de encontrar posteriormente.
-* Arquivos remanescentes têm grande probabilidade de causar erros quando o jogo não espera encontrá-los.
+* Arquivos remanescentes têm grande probabilidade de causar erros quando o jogo não os espera.
 
-### Use comandos do console para reparar um arquivo de salvamento corrompido removendo dados corrompidos
+### Usar comandos do console para reparar um arquivo de save corrompido removendo dados corrompidos
 
 * `CLEARALLOCCUPATIONS` excluirá todos os empregos e o histórico de empregos do para selecionado e não poderá ser desfeito.
 * `CLEARCHARACTEROUTFITS` excluirá todas as roupas do para selecionado e não poderá ser desfeito.
-* `CLEARINVENTORY` esvazia o inventário do para selecionado e não poderá ser desfeito.
+* `CLEARINVENTORY` esvaziará o inventário do para selecionado e não poderá ser desfeito.
 * O tutorial abaixo explica os comandos de cheat disponíveis.
 
-Tutorial for cheat commands ⁠Console and Cheat Commands
+Tutorial para comandos de cheat ⁠Console e Cheat Commands
 
-### Instale um plugin de injeção de código para gerenciar erros de mods
+### Instalar um plugin de injeção de código para gerenciar erros de mods
 
 * Esses plugins funcionam dando ao mecanismo do jogo mais tempo para processar cada arquivo de mod e ajudando o mecanismo do jogo a diagnosticar erros.
 * Plugins também podem causar corrupção adicional de dados se não forem mantidos e atualizados corretamente.
 * Espera-se que os plugins se tornem desnecessários à medida que os desenvolvedores do Paralives adicionarem mais código de correção de erros ao jogo.
 
-Paralines Launcher Plugin ⁠Paraline Launcher [Help | Bug R…
+Plugin do Paralines Launcher ⁠Paraline Launcher [Help | Bug R…
 
 ---
 
 ## Avançado
 
-### Limpe a pasta de mods locais
+### Limpar a pasta de mods locais
 
-* Isso é necessário para obter um novo início adequado.
-* O Steam Cloud pode precisar ser desativado para impedir que arquivos corrompidos sejam restaurados durante os testes.
+* Isso é necessário para obter um início realmente limpo.
+* Pode ser necessário desativar o Steam Cloud para impedir que arquivos corrompidos sejam restaurados durante os testes.
 
-1. Recorte e cole a pasta de mods locais em um local seguro fora dos arquivos do jogo, como a área de trabalho
-2. Verifique os arquivos do jogo usando o Steam
+1. Recorte e cole a pasta de mods locais em um local seguro fora dos arquivos do jogo, como a área de trabalho.
+2. Verifique os arquivos do jogo usando o Steam.
 3. Reinicie o jogo. Quando o jogo for iniciado, o Paralives regenerará toda a pasta de mods locais do zero.
 4. Verifique se uma nova pasta de mods locais foi gerada.
 5. Verifique se o problema foi resolvido.
 
-   * Sim: Reintroduza os arquivos importantes da cópia feita na etapa 1.
-   * Não: Tente outros métodos de correção do problema antes de reintroduzir arquivos antigos.
-6. Adicione apenas arquivos à pasta Paralives recém-gerada que sejam considerados seguros para reduzir as chances de copiar arquivos de dados corrompidos.
+   * Sim: Reintroduza os arquivos importantes da cópia criada na etapa 1.
+   * Não: Tente outros métodos de correção antes de reintroduzir os arquivos antigos.
+6. Adicione à nova pasta Paralives somente arquivos considerados seguros para reduzir as chances de copiar arquivos de dados corrompidos.
 
-### Edite os arquivos de salvamento diretamente para remover dados corrompidos
+### Editar arquivos de save diretamente para remover dados corrompidos
 
-* Os arquivos de salvamento são arquivos de texto e podem ser modificados diretamente.
-* Qualquer editor de texto pode ser usado, mas é preferível usar o Notepad++ com um plugin para formatar arquivos json.
-* O tutorial abaixo explica como os arquivos de salvamento são formatados.
+* Os arquivos de save são arquivos de texto e podem ser modificados diretamente.
+* Qualquer editor de texto pode ser usado, mas o Notepad++ com um plugin para formatação de arquivos JSON é preferível.
+* O tutorial abaixo explica como os arquivos de save são formatados.
 
-Explanation of the local mods folder ⁠Mod Folder/Save Folder
+Explicação da pasta de mods locais ⁠Mod Folder/Save Folder
 
-### Mova partes seguras de um salvamento para um novo arquivo de salvamento
+### Mover partes seguras de um save para um novo arquivo de save
 
-* Quando o problema com o salvamento não puder ser identificado, mova pequenas partes para um novo salvamento.
+* Quando o problema com o save não pode ser identificado, mova pequenas partes para um novo save.
 * Este método pode ser útil ao tentar identificar arquivos corrompidos.
-* Por exemplo, pastas de famílias podem ser arrastadas entre salvamentos com perda de dados relativamente pequena.
-* O tutorial abaixo explica como os arquivos de salvamento são formatados.
+* Por exemplo, pastas de famílias podem ser arrastadas entre saves com uma perda de dados relativamente pequena.
+* O tutorial abaixo explica como os arquivos de save são formatados.
 
-Explanation of the local mods folder ⁠Mod Folder/Save Folder
+Explicação da pasta de mods locais ⁠Mod Folder/Save Folder
 
-### Use comandos do console para reconstruir personagens em um novo salvamento
+### Usar comandos do console para reconstruir personagens em um novo save
 
-* Quando tudo estiver perdido, talvez seja melhor começar novamente em um novo salvamento, mas com um pouco de vantagem inicial.
+* Quando tudo estiver perdido, talvez seja melhor começar novamente em um novo save, mas com uma pequena vantagem inicial.
 * Comandos como `SETMONEY` podem ser usados para adicionar dinheiro.
-* Comandos podem ser usados para restaurar habilidades, receitas e muito mais.
+* Os comandos podem ser usados para restaurar habilidades, receitas e muito mais.
 * O tutorial abaixo explica os comandos de cheat disponíveis.
 
-Tutorial for cheat commands ⁠Console and Cheat Commands
+Tutorial para comandos de cheat ⁠Console e Cheat Commands
 
 ---
 
-> **Faça um backup completo dos seus arquivos de salvamento antes de tentar qualquer uma destas etapas!**
+> **Faça um backup completo dos seus arquivos de save antes de tentar qualquer uma destas etapas!**
 
-# "A solução habitual"
+# "A correção usual"
 
-O método de terra arrasada para corrigir a maioria dos problemas, excluindo todos os arquivos associados ao jogo para proporcionar o melhor início possível. Não recomendo esta solução para todos os problemas, pois isso pode tornar salvamentos antigos com mods impossíveis de jogar sem os mods dos quais dependem para funcionar corretamente.
+O método de destruir e reconstruir usado para corrigir a maioria dos problemas, excluindo todos os arquivos associados ao jogo para proporcionar o início mais limpo possível. Não recomendo esta solução para todos os problemas, pois isso pode tornar saves antigos com mods impossíveis de jogar sem os mods dos quais dependem para funcionar corretamente.
 
-## Limpe todos os arquivos do jogo para um novo início
+## Limpar todos os arquivos do jogo para um início limpo
 
 1. Limpe os arquivos do jogo recortando e colando toda a pasta de mods locais paralives/paralives na área de trabalho.
-2. Cancele a inscrição em todos os mods do Steam Workshop e exclua quaisquer arquivos de mods remanescentes.
+2. Cancele a assinatura de todos os mods do Steam Workshop e exclua quaisquer arquivos de mods restantes.
 3. Verifique os arquivos do jogo usando o Steam ou reinstale o jogo.
 4. Reinicie o Paralives.
-5. Inicie um novo jogo salvo.
-6. Se o jogo funcionar agora, reverta lentamente as alterações até que o problema retorne e você saberá a causa do problema.
+5. Inicie um novo save.
+6. Se o jogo funcionar agora, reverta lentamente as alterações até que o problema retorne e você saberá qual é a causa do problema.
 
 ---
 
-# Prevenir corrupção de dados
+# Prevenir a corrupção de dados
 
 ## Faça cópias de TUDO e COM FREQUÊNCIA
 
 * Faça uma cópia física dos arquivos importantes em um local seguro, como a área de trabalho, fora dos arquivos do jogo.
 * Arquivos acessíveis pelo mecanismo do jogo Paralives sempre podem ser corrompidos.
 
-> Observação: O comando ZIPSAVEFILE fará uma cópia do seu salvamento atual na área de trabalho. Ele pode sobrescrever a cópia antiga se o comando for usado duas vezes.
+> Nota: O comando ZIPSAVEFILE fará uma cópia do save atual na área de trabalho. Ele pode substituir a cópia antiga se o comando for usado duas vezes.
 
-Tutorial for cheat commands ⁠Console and Cheat Commands
+Tutorial para comandos de cheat ⁠Console e Cheat Commands
 
-`ZIPSAVEFILE` cria um zip do arquivo de salvamento atual na área de trabalho
+`ZIPSAVEFILE` cria um arquivo zip do save atual na área de trabalho.
 
 ## Leia as avaliações dos mods
 
 * E deixe avaliações também!
-* Os comentários nos mods são como o modder e outros usuários compartilham informações sobre os mods.
-* Se o mod parecer estar quebrado, avise o modder para que ele possa corrigi-lo!
+* Os comentários nos mods são a forma como o modder e outros usuários compartilham informações sobre os mods.
+* Se o mod parecer estar com problemas, informe o modder para que ele possa corrigi-lo!
 
 ## Desative o Steam Cloud
 
-* Steam Cloud é excelente para proteger arquivos importantes, mas às vezes causa problemas difíceis de encontrar.
-* Steam Cloud gosta de trazer de volta arquivos expirados sem avisar ninguém e simplesmente colocá-los lá para que você os encontre mais tarde.
+* O Steam Cloud é excelente para proteger arquivos importantes, mas às vezes causa problemas difíceis de encontrar.
+* O Steam Cloud gosta de trazer de volta arquivos expirados sem avisar ninguém e simplesmente colocá-los lá para você encontrá-los depois.
 
 ## Remova os mods corretamente
 
-* Mods adicionam referências de itens ao jogo.
-* Cada instância desses itens precisa ser removida manualmente do salvamento do jogo ANTES de remover o mod.
-* É muito mais fácil remover itens de mods dentro do jogo do que modificando um arquivo de salvamento.
-* Exclua aquele sofá sofisticado e aquele suéter divertido antes de remover o mod!
+* Os mods adicionam referências de itens ao jogo.
+* Cada instância desses itens precisa ser removida manualmente do save do jogo ANTES de remover o mod.
+* É muito mais fácil remover itens de mods dentro do jogo do que modificando um arquivo de save.
+* Remova aquele sofá sofisticado e aquele suéter divertido antes de remover o mod!
 
 ## Atualize os drivers
 
-* Para este tutorial, o driver no qual você deve se concentrar é o da placa gráfica (GPU).
+* Para este tutorial, o driver mais importante é o da placa de vídeo (GPU).
 * No Windows, baixe o aplicativo da Nvidia ou AMD e instale o novo driver a cada poucos meses.
 
 ## Atualize o sistema operacional
 
-* Sim, é chato, mas é importante!
+* É, eu sei, chato, mas é importante!
 * Execute regularmente softwares de atualização integrados, como o Windows Update.
 
-## Instale mods lentamente e verifique os mods instalados individualmente ou em pequenos grupos
+## Instale os mods lentamente e verifique os mods instalados individualmente ou em pequenos grupos
 
 * Isso pode ajudar o jogo a processar cada arquivo sem cometer erros.
 
 ## Manutenção preventiva do hardware
 
 * Cuide do computador e ele cuidará de você.
-* Instale e execute softwares antimalware obtidos de fontes seguras.
+* Instale e execute um software antimalware obtido de forma segura.
 * Inspecione o computador em busca de danos físicos e limpe a poeira.
-* Execute programas integrados para verificar a integridade e estabilidade dos componentes.
-
-The contents of this repository, source code, documentation, and associated files, may not be used for AI model training, dataset creation, or other machine-learning purposes. known-issues-and-bugs
-  known-issues-and-bugs
+* Execute programas integrados para verificar a saúde e a estabilidade dos componentes.
