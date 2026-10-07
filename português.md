@@ -561,37 +561,5 @@ Tutorial for cheat commands ⁠Console and Cheat Commands
 * Inspecione o computador em busca de danos físicos e limpe a poeira.
 * Execute programas integrados para verificar a integridade e estabilidade dos componentes.
 
----
-
-# Mais recursos
-
-## Tópicos discutindo problemas com mods (onde obtenho minhas cobaias)
-
-* Recomendações de correções dos desenvolvedores
-  https://steamcommunity.com/app/1118520/discussions/1/569288683937662349/
-* Mega tópico de mods ausentes
-  https://discord.com/channels/595045400805769238/1517352862395404499
-* Mods não carregando
-  https://discord.com/channels/595045400805769238/1517449529174130779
-* Erros de referência nula
-  https://discord.com/channels/595045400805769238/1517532031662424154
-* Erros de referência nula
-  https://discord.com/channels/595045400805769238/1513991069379858515/1517000216207822899
-* Arquivos de mods corrompidos
-  https://discord.com/channels/595045400805769238/1517266950944981062
-* Wiki do Paralives
-  https://paralives.wiki.gg/wiki/Portal:Modding_guides
-* Registro de alterações do Paralives
-  https://www.paralives.com/news
-* Desenvolvimento do Paralives
-  https://www.paralives.com/development
-* Roadmap do Paralives
-  https://paralives.notion.site/f138c4f6cb234604be16fe4198d17f51
-* Bugs conhecidos
-  https://discord.com/channels/595045400805769238/1508927230154244216
-* Roadmap do Paralives
-  https://paralives.notion.site/f138c4f6cb234be16fe4198d17f51
-* Bugs conhecidos
-
 The contents of this repository, source code, documentation, and associated files, may not be used for AI model training, dataset creation, or other machine-learning purposes. known-issues-and-bugs
   known-issues-and-bugs
