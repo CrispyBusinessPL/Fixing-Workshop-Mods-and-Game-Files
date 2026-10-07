@@ -3,20 +3,20 @@
 * [Wymagane elementy](#wymagane-elementy)
 * [Identyfikowanie uszkodzonych danych](#identyfikowanie-uszkodzonych-danych)
 * [Jak usunąć uszkodzone dane](#jak-usunąć-uszkodzone-dane)
-* ["Zwykła poprawka"](#zwykła-poprawka)
+* ["Typowe rozwiązanie"](#typowe-rozwiązanie)
 * [Zapobieganie uszkodzeniu danych](#zapobieganie-uszkodzeniu-danych)
 * [Więcej zasobów](#więcej-zasobów)
 
-> **Przed wykonaniem któregokolwiek z tych kroków wykonaj pełną kopię zapasową plików zapisów gry!**
-
 ---
+
+> **Przed wykonaniem któregokolwiek z tych kroków wykonaj pełną kopię zapasową swoich zapisów gry!**
 
 # Wymagane elementy
 
-## Folder modów Steam Workshop (mody Workshop)
+## Folder modów Steam Workshop (Workshop Mods)
 
-* Można uzyskać do niego dostęp, klikając ikonę folderu przy modzie Steam Workshop w menu modów Paralives.
-* Przechodząc do:
+* Dostęp do niego można uzyskać, klikając ikonę folderu przy modzie Steam Workshop w menu modów Paralives.
+* Można również przejść do:
 
 **Windows:**
 
@@ -30,10 +30,10 @@ C:\Program Files (x86)\Steam\steamapps\workshop\content\1118520\
 ~/Library/Application Support/Steam/steamapps/workshop/content/1118520
 ```
 
-## Folder Paralives (mody lokalne)
+## Folder Paralives (Local Mods)
 
-* Można uzyskać do niego dostęp, klikając ikonę folderu przy lokalnym modzie w menu modów Paralives.
-* Przechodząc do:
+* Dostęp do niego można uzyskać, klikając ikonę folderu przy lokalnym modzie w menu modów Paralives.
+* Można również przejść do:
 
 **Windows:**
 
@@ -51,14 +51,14 @@ C:\Users\USER\AppData\LocalLow\Paralives\Paralives
 
 * Można go odczytać za pomocą dowolnego programu do odczytywania plików tekstowych, takiego jak Notatnik lub Notepad++.
 * Znajduje się w folderze Paralives\Paralives.
-* Zawiera dzienniki bieżącej lub ostatnio rozegranej sesji Paralives.
+* Zawiera logi bieżącej lub ostatnio uruchomionej sesji Paralives.
 
 ## Folder Paralives\MySavedGames.mod
 
-* Folder zawierający wszystkie bieżące zapisy gry i zapisy automatyczne.
+* Folder zawierający wszystkie bieżące zapisy gry oraz automatyczne zapisy.
 * Znajduje się w folderze Paralives\Paralives.
-* Ten folder jest ważniejszy niż jakikolwiek inny.
-* Regularnie wykonuj pełną kopię tego folderu i przechowuj ją w bezpiecznej lokalizacji poza plikami gry!
+* Jest to najważniejszy folder ze wszystkich.
+* Regularnie wykonuj pełną kopię tego folderu i przechowuj ją w bezpiecznym miejscu poza plikami gry!
 
 ## Folder Paralives\MyPremadeHouseholds.mod
 
@@ -74,36 +74,34 @@ C:\Users\USER\AppData\LocalLow\Paralives\Paralives
 
 ## Folder Paralives\Local.mod i 0.mod
 
-* Przechowuje ustawienia gry, takie jak niestandardowe warianty kolorystyczne.
-
----
+* Przechowuje ustawienia gry, takie jak niestandardowe próbki kolorów.
 
 # Identyfikowanie uszkodzonych danych
 
-Uszkodzone dane składają się z plików, które zostały zmienione i nie są już w formie ani kolejności, której gra oczekuje.
+Uszkodzone dane to pliki, które zostały zmienione i nie mają już formy lub kolejności, której gra oczekuje.
 
 ## Nieaktualne pliki
 
 * Gra została zaktualizowana, a te pliki nie są już zgodne z aktualną składnią.
-* Chociaż może się to sporadycznie zdarzać w przypadku modów, niemal wszystkie pluginy wstrzykujące kod bepinex stają się nieaktualne po aktualizacji gry.
-* Jeśli plugin bepinex jest zainstalowany, ale mody nadal nie działają, plugin może powodować więcej szkody niż pożytku.
+* Chociaż czasami może się to zdarzyć w przypadku modów, niemal wszystkie wtyczki wstrzykujące kod BepInEx stają się nieaktualne po aktualizacji gry.
+* Jeśli wtyczka BepInEx jest zainstalowana, ale mody nadal nie działają, wtyczka może powodować więcej szkody niż pożytku.
 
 ## Nieprawidłowo zmodyfikowane pliki
 
-* Zostały zmodyfikowane przez gracza, moddera lub nawet silnik gry i są teraz nieprawidłowe.
-* Dotyczy to sytuacji, gdy mody lub pluginy były używane, a następnie zostały usunięte.
+* Zostały zmodyfikowane przez gracza, twórcę moda lub nawet silnik gry i w rezultacie są nieprawidłowe.
+* Dotyczy to modów lub wtyczek, które były używane, a następnie zostały usunięte.
 
-Na przykład mod został użyty do dodania niestandardowego stroju, następnie mod został usunięty, ale strój nadal jest identyfikowany w plikach gry.
+Na przykład mod został użyty do dodania niestandardowego stroju, a następnie usunięty, ale strój nadal jest identyfikowany w plikach gry.
 
-Usunięcie niektórych modów bez uszkodzenia pliku zapisu gry może być niemożliwe.
+Usunięcie niektórych modów bez uszkodzenia pliku zapisu może być niemożliwe.
 
 ## Nieprawidłowo przeniesione pliki
 
-* Pliki są często przenoszone przez gracza, silnik gry lub Steam, a niektóre części pliku pozostają na miejscu lub zostają usunięte.
+* Pliki są często przenoszone przez gracza, silnik gry lub Steam, a niektóre ich części pozostają lub zostają usunięte.
 
 ## W jaki sposób gra poinformuje mnie, które pliki są uszkodzone?
 
-Silnik gry będzie próbował poinformować użytkownika o wystąpieniu błędu za pomocą bezpośrednich i pośrednich powiadomień.
+Silnik gry będzie próbował poinformować użytkownika o błędzie za pomocą bezpośrednich i pośrednich komunikatów.
 
 ### Bezpośrednie:
 
@@ -114,41 +112,41 @@ Silnik gry będzie próbował poinformować użytkownika o wystąpieniu błędu 
 ### Pośrednie:
 
 * Migotanie
-* Błyski
+* Błyskanie
 * Zacinanie
-* Lagi
-* Wyłączanie się gry
+* Opóźnienia
+* Awaria gry
 * Anulowanie operacji
 
-## Odczytywanie Error Console i Player.Log
+## Odczytywanie konsoli błędów i Player.Log
 
-Raporty error console i player.log pokrywają się tylko częściowo, dlatego podczas próby zidentyfikowania błędu ważne jest sprawdzenie obu.
+Informacje w konsoli błędów i player.log tylko częściowo się pokrywają, dlatego podczas identyfikowania błędu należy sprawdzić oba źródła.
 
-Ważne jest zidentyfikowanie początkowego błędu i zignorowanie dodatkowych błędów spowodowanych przez pierwszy błąd. Podczas odczytywania dziennika błędów należy próbować naprawiać błędy od góry do dołu, w kolejności ich występowania.
+Ważne jest zidentyfikowanie pierwszego błędu i zignorowanie dodatkowych błędów spowodowanych przez pierwszy błąd. Podczas czytania logu błędów należy próbować naprawiać błędy od góry do dołu, w kolejności ich występowania.
 
-Jeśli jednocześnie pojawi się wiele błędów, diagnozowanie może być bardzo trudne. Ważne jest, aby pomiędzy testami wprowadzać tylko niewielką liczbę zmian.
+Jeśli kilka błędów zostanie wprowadzonych jednocześnie, diagnozowanie problemu może być bardzo trudne. Ważne jest, aby pomiędzy testami wprowadzać tylko niewielką liczbę zmian.
 
-Jeśli gra działa płynnie, zanotuj błędy w dzienniku, aby można było je później wykluczyć, gdy coś zacznie działać nieprawidłowo.
+Jeśli gra działa płynnie, zanotuj błędy znajdujące się w logu, aby można było je później wykluczyć, gdy coś przestanie działać.
 
-### ERROR CONSOLE
+### KONSOLA BŁĘDÓW
 
-* Error console jest dostępna w grze jako zakładka w menu cheatów.
-* Nie można jej używać, jeśli gra się nie ładuje.
+* Konsola błędów jest dostępna w grze jako karta w menu kodów.
+* Nie można z niej korzystać, jeśli gra się nie uruchamia.
 
-1. Naciśnij Ctrl+Shift+C, aby otworzyć menu cheatów.
-2. Naciśnij strzałkę, aby przełączyć się na zakładkę konsoli.
-3. Konsola jest podzielona na trzy kategorie według ważności.
-4. W kontekście tego poradnika ważne są tylko czerwone błędy.
+1. Naciśnij Ctrl+Shift+C, aby otworzyć menu kodów.
+2. Naciśnij symbol daszka, aby przełączyć się na kartę konsoli.
+3. Konsola jest podzielona na trzy kategorie ważności.
+4. Na potrzeby tego poradnika ważne są tylko czerwone błędy.
 
-### PLAYER.LOG & PLAYER-PREV.LOG
+### PLAYER.LOG I PLAYER-PREV.LOG
 
 * Ten plik rejestruje działania wykonywane przez silnik gry Unity uruchamiający Paralives.
 * Player.log jest nadpisywany przy każdym uruchomieniu gry i przenoszony do Player-prev.log.
 * Znajduje się w lokalnym folderze modów Paralives\Paralives.
-* Więcej informacji można umieścić w dzienniku, włączając opcje w panelu sterowania. Zbyt wiele opcji może szybko spowodować, że dziennik stanie się bardzo duży.
-* Jeśli coś w dzienniku jest ważne, wykonaj kopię!
+* Więcej informacji może zostać zapisanych w logu po włączeniu odpowiednich opcji w panelu sterowania. Zbyt wiele opcji może szybko spowodować znaczny wzrost rozmiaru logu.
+* Jeśli coś w logu jest ważne, wykonaj kopię!
 
-### Dobre błędy (a przynajmniej nie złe):
+### Dobre błędy (a przynajmniej nieszkodliwe):
 
 ```text
 + Meta cache is expired
@@ -170,59 +168,55 @@ Jeśli gra działa płynnie, zanotuj błędy w dzienniku, aby można było je p�
 - Could not register Paralives Town.saved
 ```
 
-> Uwaga: W wersji 1.7 w konsoli i player.log pojawiają się trzy nowe czerwone błędy, które nie wydają się negatywnie wpływać na wydajność gry.
+> Uwaga: W wersji 1.7 pojawiły się trzy nowe czerwone błędy w konsoli i player.log, które nie wydają się negatywnie wpływać na działanie gry.
 >
 > * `+ System Exception: Invalid Path...`
 > * `+ Runtime data is null...`
 > * `+ OperationException: Addressables...`
 
-> Uwaga: W wersji 1.8A importer .fbx nie działał prawidłowo i zatrzymywał się na ekranie importowania assetów.
-
----
+> Uwaga: W wersji 1.8A importer .fbx nie działał prawidłowo i zawieszał się na ekranie importowania zasobów.
 
 # Rodzaje błędów
 
 Rodzaje problemów występujących na poziomie technicznym.
 
-## Null Reference
+## Odwołanie do wartości null
 
-* Czasami nazywane odwołaniem do pustego wskaźnika.
-* Dowolny błąd wskazujący, że nie można znaleźć ustawienia, przedmiotu, mesha lub wartości.
-* Gra odwołuje się do obiektu, którego nie może znaleźć, albo nie rozumie tego, co znalazła.
+* Czasami nazywane odwołaniem wskaźnika null.
+* Każdy błąd dotyczący ustawienia, elementu, siatki lub wartości, której nie można znaleźć.
+* Gra odwołuje się do obiektu, którego nie może znaleźć, lub nie rozumie tego, co znalazła.
 
-> Uwaga: Gra potrafi obsługiwać niektóre odwołania null, a kilka z nich jest częścią wersji gry we wczesnym dostępie.
+> Uwaga: Gra potrafi obsługiwać niektóre odwołania null, a kilka z nich jest częścią wersji wczesnego dostępu gry.
 
-## Out of Bounds
+## Poza zakresem
 
 * Gra otrzymała wartość spoza oczekiwanego zakresu.
-* Jeśli gra oczekuje wartości pomiędzy 0 a 10, ale otrzyma 10842, może to spowodować błąd.
+* Jeśli gra oczekuje wartości od 0 do 10, ale otrzyma 10842, może to spowodować błąd.
 
-## Translation
+## Tłumaczenie
 
 * Gra próbowała naprawić plik uznany za uszkodzony, ale wynik był nieprawidłowy.
 
-Na przykład problem z plikami .tmp ⁠.mod.meta i .tmp
+Na przykład problem z plikami .tmp, .mod.meta i .tmp.
 
-## Syntax
+## Składnia
 
-* Gra została zaktualizowana, a mod nie jest już zgodny ze standardami określonymi przez grę. Najczęściej dotyczy to pluginów wstrzykujących kod Bepinex.
-* Niektóre mody utworzone w momencie premiery gry nie zawierają dwukropków w pliku tekstowym.
-
----
+* Gra została zaktualizowana, a mod nie jest już zgodny ze standardami określonymi przez grę. Najczęściej dotyczy to wtyczek wstrzykujących kod BepInEx.
+* W niektórych modach utworzonych w momencie premiery gry brakuje dwukropków w plikach tekstowych.
 
 # Kategorie objawów
 
-Gdy przyczyna błędu jest nieznana, celem jest powiązanie objawów z konkretną przyczyną. Po naprawieniu każdego błędu gra będzie działać. Poniżej znajdują się arbitralne kategorie pomagające grupować podobne błędy.
+Gdy przyczyna błędu jest nieznana, celem jest powiązanie objawów z konkretną przyczyną. Po naprawieniu każdego błędu gra powinna działać. Poniżej znajdują się arbitralne kategorie pomagające grupować podobne błędy.
 
-Ważne jest zidentyfikowanie początkowego błędu i zignorowanie dodatkowych błędów spowodowanych przez pierwszy błąd.
+Ważne jest zidentyfikowanie pierwszego błędu i zignorowanie dodatkowych błędów spowodowanych przez pierwszy błąd.
 
-## Cat A — Uruchamianie gry
+## Kategoria A — Uruchamianie gry
 
 ### Objawy
 
 * Gra nie może przejść do głównego menu Paralives
 * Ekran jest czarny
-* Gra zawiesza się podczas uruchamiania przez Steam
+* Gra zawiesza się podczas uruchamiania z poziomu Steam
 * Podczas uruchamiania gry przez Steam pojawia się błąd
 * Gra zatrzymuje się na obrazie chmur.
 
@@ -230,15 +224,15 @@ Ważne jest zidentyfikowanie początkowego błędu i zignorowanie dodatkowych b�
 
 * Sprawdź, czy sprzęt spełnia minimalne wymagania do uruchomienia Paralives.
 * Krytyczny plik używany podczas uruchamiania gry jest uszkodzony, nieczytelny lub niedostępny.
-* Zacznij od sprawdzenia plików gry.
-* Dodaj wyjątek dla Paralives w programie antywirusowym.
-* Sprawdź player.log pod kątem błędów w lokalnym folderze modów paralives/paralives.
+* Zacznij od sprawdzenia poprawności plików gry.
+* Dodaj Paralives do wyjątków programu antywirusowego.
+* Sprawdź player.log pod kątem błędów w lokalnym folderze mods paralives/paralives.
 
-## Cat B — Importowanie assetów
+## Kategoria B — Importowanie zasobów
 
 ### Objawy
 
-* Gra zatrzymuje się na etapie importowania assetów
+* Gra zatrzymuje się podczas importowania zasobów
 
 ### Możliwa przyczyna
 
@@ -246,14 +240,14 @@ Plik moda jest nieczytelny.
 
 ### Możliwe rozwiązania
 
-* Usuwaj najnowsze mody z lokalnego folderu modów paralives/paralives lub folderów Steam Workshop, aż problem zostanie rozwiązany.
-* Sprawdź pliki gry.
+* Usuń najnowsze mody z lokalnego folderu paralives/paralives lub folderów Steam Workshop, aż problem zostanie rozwiązany.
+* Sprawdź poprawność plików gry.
 
-## Cat C — Wybór zapisu
+## Kategoria C — Wybór zapisu
 
 ### Objawy
 
-* Gra wraca do głównego menu podczas próby załadowania zapisu
+* Gra wraca do głównego menu podczas próby wczytania zapisu
 * Plik zapisu jest biały
 
 ### Możliwa przyczyna
@@ -262,43 +256,43 @@ Plik zapisu ma nieprawidłowe nazwy plików, brakuje w nim plików lub jest niec
 
 ### Możliwe rozwiązanie
 
-Zacznij od sprawdzenia, czy nazwa zapisu odpowiada plikom meta znajdującym się wewnątrz oraz czy zapis zawiera wszystkie wymagane komponenty.
+Najpierw sprawdź, czy nazwa zapisu odpowiada plikom meta znajdującym się w środku oraz czy zapis zawiera wszystkie wymagane elementy.
 
-## Cat D — Ładowanie zapisu
+## Kategoria D — Wczytywanie zapisu
 
 ### Objawy
 
-* Gra zatrzymuje się podczas ładowania zapisu
-* Gra pozostaje na ekranie ładowania w nieskończoność
+* Gra zatrzymuje się podczas wczytywania zapisu
+* Gra pozostaje na ekranie ładowania bez końca
 
 ### Możliwa przyczyna
 
-Uszkodzony mod, nieprawidłowo usunięty mod lub uszkodzenie pliku zapisu, takie jak błąd null reference.
+Uszkodzony mod, nieprawidłowo usunięty mod lub uszkodzenie zapisu, takie jak błąd odwołania null.
 
 Usunięcie niektórych modów bez uszkodzenia pliku zapisu może być niemożliwe.
 
 ### Możliwe rozwiązanie
 
-Sprawdź, czy błędy występują również w nowym zapisie gry.
+Sprawdź, czy błędy nadal występują w nowym zapisie gry.
 
-## Cat E — Tryb Live
+## Kategoria E — Tryb życia
 
 ### Objawy
 
-* Gra zatrzymuje się lub zawiesza podczas otwierania menu w trybie Live
-* Gra zatrzymuje się lub zawiesza podczas wykonywania określonej czynności w trybie Live
+* Gra zatrzymuje się lub zawiesza podczas otwierania menu w trybie życia
+* Gra zatrzymuje się lub zawiesza podczas wykonywania określonej czynności w trybie życia
 
 ### Możliwa przyczyna
 
-Uszkodzony mod, nieprawidłowo usunięty mod lub uszkodzenie pliku zapisu, takie jak błąd null reference.
+Uszkodzony mod, nieprawidłowo usunięty mod lub uszkodzenie zapisu, takie jak błąd odwołania null.
 
 Usunięcie niektórych modów bez uszkodzenia pliku zapisu może być niemożliwe.
 
 ### Możliwe rozwiązanie
 
-Sprawdź, czy błędy występują również w nowym zapisie gry.
+Sprawdź, czy błędy nadal występują w nowym zapisie gry.
 
-## Cat F — Menu
+## Kategoria F — Menu
 
 ### Objawy
 
@@ -308,26 +302,26 @@ Sprawdź, czy błędy występują również w nowym zapisie gry.
 
 ### Możliwa przyczyna
 
-Uszkodzony mod, nieprawidłowo usunięty mod lub uszkodzenie pliku zapisu, takie jak błąd null reference.
+Uszkodzony mod, nieprawidłowo usunięty mod lub uszkodzenie zapisu, takie jak błąd odwołania null.
 
 Usunięcie niektórych modów bez uszkodzenia pliku zapisu może być niemożliwe.
 
 ### Możliwe rozwiązanie
 
-Sprawdź, czy błędy występują również w nowym zapisie gry.
+Sprawdź, czy błędy nadal występują w nowym zapisie gry.
 
-## Cat G — Instalowanie modów
+## Kategoria G — Instalowanie modów
 
 ### Objawy
 
-* Mody nie chcą się zainstalować
+* Mody nie chcą się instalować
 
 ### Możliwe rozwiązania
 
-* Sprawdź foldery modów Steam i lokalnych pod kątem niekompletnych plików.
+* Sprawdź folder Steam i lokalny folder modów pod kątem niepełnych plików.
 * Usuń uszkodzone pliki modów uniemożliwiające pobranie.
 
-## Cat H — Brakujące mody
+## Kategoria H — Brakujące mody
 
 ### Objawy
 
@@ -336,33 +330,31 @@ Sprawdź, czy błędy występują również w nowym zapisie gry.
 
 ### Możliwe rozwiązania
 
-* Sprawdź, czy nie ma uszkodzonych modów.
+* Sprawdź, czy mody nie są uszkodzone.
 * Sprawdź, czy nie ma zduplikowanych plików modów.
 
-## Cat I — Sprawdzanie modów
+## Kategoria I — Sprawdzanie modów
 
 ### Objawy
 
-* Zainstalowane przedmioty z modów nie pojawiają się po wyposażeniu postaci
-* Zainstalowane przedmioty z modów zniknęły
-* Postać z przedmiotami z modów zniknęła
-* Przedmioty z modów wyglądają dziwnie
-* Przedmioty z modów zachowują się w nieoczekiwany sposób
-* Przedmioty z modów mają niewłaściwy kolor, kształt lub rozmiar
+* Zainstalowane elementy modów nie pojawiają się po wyposażeniu postaci
+* Zainstalowane elementy modów zniknęły
+* Postać z elementami moda zniknęła
+* Elementy modów wyglądają dziwnie
+* Elementy modów zachowują się w nieoczekiwany sposób
+* Elementy modów mają niewłaściwy kolor, kształt lub rozmiar
 
 ### Możliwe rozwiązanie
 
-Sprawdź, czy nie ma uszkodzonych modów.
+Sprawdź, czy mody nie są uszkodzone.
 
 ---
 
-> **Przed wykonaniem któregokolwiek z tych kroków wykonaj pełną kopię zapasową plików zapisów gry!**
-
----
+> **Przed wykonaniem któregokolwiek z tych kroków wykonaj pełną kopię zapasową swoich zapisów gry!**
 
 # Jak usunąć uszkodzone dane
 
-Posortowane według poziomu trudności i złożoności.
+Uporządkowane według poziomu trudności i złożoności.
 
 ## Łatwe
 
@@ -370,99 +362,197 @@ Posortowane według poziomu trudności i złożoności.
 
 * Czasami mody nie inicjalizują się prawidłowo, co można naprawić, wyłączając i ponownie włączając tylko jeden mod za pomocą menu modów w grze.
 
-### Uruchom ponownie Paralives
+### Ponowne uruchomienie Paralives
 
-* Gra posiada zabezpieczenia przed uszkodzonymi danymi, które są aktywowane podczas uruchamiania gry.
-* Może się to wydawać głupie, ale wielokrotne ponowne uruchomienie gry może być skuteczne w niektórych sytuacjach.
+* Gra posiada zabezpieczenia przed uszkodzonymi danymi, które aktywują się podczas uruchamiania gry.
+* Może się to wydawać dziwne, ale wielokrotne ponowne uruchomienie gry może być skuteczne w niektórych sytuacjach.
 
-### Rozpocznij nowy zapis gry
+### Rozpoczęcie nowego zapisu gry
 
-* Jeśli błędy są zbyt skomplikowane lub nie można ich naprawić, rozpoczęcie nowego zapisu gry może być najlepszą opcją.
+* Jeśli błędy są zbyt skomplikowane lub nie można ich naprawić, rozpoczęcie nowego zapisu gry może być najlepszym rozwiązaniem.
 
-### Sprawdź pliki gry lub zainstaluj ponownie grę za pomocą Steam
+### Sprawdzenie poprawności plików gry lub ponowna instalacja gry przez Steam
 
-* W kliencie Steam, gdy gra jest zamknięta:
+* W kliencie Steam, gdy gra jest wyłączona:
 
-  * Steam > Paralives > Properties > Verify integrity of games files
+  * Steam > Paralives > Właściwości > Sprawdź spójność plików gry
 
-### Ponownie zasubskrybuj wszystkie mody, aby usunąć uszkodzone pliki
+### Ponowna subskrypcja wszystkich modów w celu usunięcia uszkodzonych plików
 
-1. Dodaj wszystkie zasubskrybowane mody do niestandardowej kolekcji
+1. Dodaj wszystkie subskrybowane mody do niestandardowej kolekcji
 2. Anuluj subskrypcję wszystkich modów
 3. Zasubskrybuj wszystkie mody znajdujące się w kolekcji
 
-### Usuwaj mody, aż uszkodzony mod zostanie usunięty
+### Usuwanie modów do momentu usunięcia uszkodzonego moda
 
-* Usuwaj jeden mod na raz lub użyj metody 50/50, aby usuwać połowę modów, aż uszkodzony mod zostanie zidentyfikowany.
-* Mody nadal mogą powodować błędy nawet po wyłączeniu. Muszą zostać całkowicie usunięte poprzez przeniesienie, anulowanie subskrypcji lub usunięcie plików moda.
-* Gra może wymagać ponownego uruchomienia pomiędzy każdym testem, aby upewnić się, że pliki z pamięci podręcznej zostały usunięte.
+* Usuwaj jeden mod na raz lub użyj metody 50/50, aby usuwać połowę modów do momentu zidentyfikowania uszkodzonego moda.
+* Mody mogą nadal powodować błędy nawet po ich wyłączeniu. Muszą zostać całkowicie usunięte poprzez przeniesienie, anulowanie subskrypcji lub usunięcie plików moda.
+* Gra może wymagać ponownego uruchomienia pomiędzy każdym testem, aby upewnić się, że pliki pamięci podręcznej zostały usunięte.
 * Dokumentuj swoje ustalenia i zapisuj, które mody działają!
 
-### Ponownie zasubskrybuj mody powoli, aby upewnić się, że instalują się prawidłowo
+### Powolne ponowne subskrybowanie modów w celu upewnienia się, że instalują się prawidłowo
 
-* Teoria zakłada, że instalowanie zbyt wielu modów naraz powoduje błędy, dlatego instaluj mody powoli.
-* Gra została zaprojektowana tak, aby instalować mody szybko, ale być może jest w tym coś prawdziwego.
+* Teoria zakłada, że instalowanie zbyt wielu modów jednocześnie powoduje błędy, dlatego instaluj mody powoli.
+* Gra została zaprojektowana tak, aby szybko instalować mody, ale być może jest w tym trochę prawdy.
 
----
+## Średnio zaawansowane
 
-## Średniozaawansowane
+### Przenoszenie modów Steam Workshop do lokalnego folderu modów Paralives\Paralives
 
-### Przenieś mody Steam Workshop do lokalnego folderu modów Paralives\Paralives
+* Mody zainstalowane lokalnie są interpretowane inaczej przez silnik gry, co może naprawić błąd.
 
-* Mody zainstalowane lokalnie są interpretowane przez silnik gry w inny sposób, co może naprawić błąd.
 * Gdy gra nie jest uruchomiona, otwórz eksplorator plików i wróć do folderu modów Steam Workshop:
 
   ```text
   C:\Program Files (x86)\Steam\steamapps\workshop\content\1118520\
   ```
-* Wpisz ".mod" w pasku wyszukiwania. Jeśli nie będzie wyników, spróbuj "*.mod".
-* Spowoduje to wyświetlenie folderów zawierających mody w folderze Steam Mods.
-* Zaznacz, wytnij i wklej wszystkie foldery .mod do lokalnego folderu modów Paralives\Paralives.
-* Wszystkie foldery powinny zostać przeniesione jednocześnie.
-* Następnie anuluj subskrypcję modów, aby uniemożliwić Steamowi skopiowanie ich z powrotem.
-* Upewnij się, że kopia w folderze modów Steam Workshop została prawidłowo usunięta, ponieważ dwie kopie tego samego moda mogą powodować błędy.
 
-### Usuń wszystkie pozostałe pliki z folderów modów Steam Workshop
+* Wpisz ".mod" w pasku wyszukiwania. Jeśli nie ma wyników, spróbuj "*.mod".
+
+* Spowoduje to wyświetlenie folderów zawierających mody w folderze Steam Mods.
+
+* Zaznacz, wytnij i wklej wszystkie foldery .mod do lokalnego folderu modów Paralives\Paralives.
+
+* Wszystkie foldery powinny zostać przeniesione jednocześnie.
+
+* Następnie anuluj subskrypcję modów, aby uniemożliwić Steam ponowne ich skopiowanie.
+
+* Upewnij się, że kopia w folderze Steam Workshop została prawidłowo usunięta, ponieważ posiadanie dwóch kopii tego samego moda może powodować błędy.
+
+### Usuwanie pozostałych plików z folderów modów Steam Workshop
 
 * Wróć do workshop\content\1118520\ i usuń wszystkie pliki, które nie zostały prawidłowo usunięte.
-* Zwróć szczególną uwagę na szczegóły, ponieważ drobne błędy będą później trudne do znalezienia.
-* Pozostawione pliki bardzo często powodują błędy, gdy gra ich nie oczekuje.
+* Zwróć szczególną uwagę na szczegóły, ponieważ późniejsze znalezienie drobnych błędów może być trudne.
+* Pozostawione pliki bardzo prawdopodobnie spowodują błędy, gdy gra nie będzie ich oczekiwać.
 
-### Użyj poleceń konsoli, aby naprawić uszkodzony plik zapisu poprzez usunięcie uszkodzonych danych
+### Używanie poleceń konsoli do naprawy uszkodzonego pliku zapisu poprzez usunięcie uszkodzonych danych
 
-* `CLEARALLOCCUPATIONS` usunie wszystkie prace i historię pracy wybranego para i nie można tego cofnąć.
-* `CLEARCHARACTEROUTFITS` usunie wszystkie stroje wybranego para i nie można tego cofnąć.
-* `CLEARINVENTORY` opróżni ekwipunek wybranego para i nie można tego cofnąć.
+* `CLEARALLOCCUPATIONS` usunie wszystkie zawody i historię pracy wybranego para i tej operacji nie można cofnąć.
+* `CLEARCHARACTEROUTFITS` usunie wszystkie stroje wybranego para i tej operacji nie można cofnąć.
+* `CLEARINVENTORY` opróżni ekwipunek wybranego para i tej operacji nie można cofnąć.
 * Poniższy poradnik wyjaśnia dostępne polecenia cheatów.
 
-Tutorial for cheat commands ⁠Console and Cheat Commands
+Poradnik dotyczący poleceń cheatów ⁠Console and Cheat Commands
 
-### Zainstaluj plugin wstrzykujący kod, aby zarządzać błędami modów
+### Instalowanie wtyczki wstrzykującej kod w celu zarządzania błędami modów
 
-* Pluginy te działają poprzez zapewnienie silnikowi gry większej ilości czasu na przetworzenie każdego pliku moda oraz pomagają silnikowi gry diagnozować błędy.
-* Pluginy mogą również powodować dodatkowe uszkodzenia danych, jeśli nie są odpowiednio utrzymywane i aktualizowane.
-* Miejmy nadzieję, że pluginy staną się niepotrzebne, gdy twórcy Paralives dodadzą do gry więcej kodu korygującego błędy.
+* Wtyczki te działają poprzez zapewnienie silnikowi gry większej ilości czasu na przetworzenie każdego pliku moda i pomagają silnikowi gry diagnozować błędy.
+* Wtyczki mogą również powodować dodatkowe uszkodzenia danych, jeśli nie są odpowiednio utrzymywane i aktualizowane.
+* Wtyczki prawdopodobnie staną się zbędne, gdy twórcy Paralives dodadzą więcej kodu korygującego błędy.
 
 Paralines Launcher Plugin ⁠Paraline Launcher [Help | Bug R…
 
----
-
 ## Zaawansowane
 
-### Wyczyść lokalny folder modów
+### Wyczyszczenie lokalnego folderu modów
 
-* Jest to konieczne, aby uzyskać prawidłowy świeży start.
-* Steam Cloud może wymagać wyłączenia, aby zapobiec przywracaniu uszkodzonych plików podczas testowania.
+* Jest to wymagane, aby uzyskać prawdziwie świeży start.
+* Może być konieczne wyłączenie Steam Cloud, aby zapobiec przywracaniu uszkodzonych plików podczas testowania.
 
-1. Wytnij i wklej lokalny folder modów do bezpiecznej lokalizacji poza plikami gry, takiej jak pulpit
-2. Sprawdź pliki gry za pomocą Steam
+1. Wytnij i wklej lokalny folder modów w bezpieczne miejsce poza plikami gry, na przykład na pulpit
+2. Sprawdź poprawność plików gry za pomocą Steam
 3. Uruchom ponownie grę. Po uruchomieniu Paralives odtworzy cały lokalny folder modów od podstaw.
-4. Sprawdź, czy został wygenerowany nowy lokalny folder modów.
+4. Sprawdź, czy został utworzony nowy lokalny folder modów.
 5. Sprawdź, czy problem został rozwiązany.
 
    * Tak: Przywróć ważne pliki z kopii utworzonej w kroku 1.
    * Nie: Spróbuj innych metod naprawienia problemu przed przywróceniem starych plików.
+6. Dodawaj do nowo utworzonego folderu Paralives tylko pliki, które uważa się za bezpieczne, aby zmniejszyć ryzyko skopiowania uszkodzonych danych.
+
+### Bezpośrednia edycja plików zapisu w celu usunięcia uszkodzonych danych
+
+* Pliki zapisów są plikami tekstowymi i można je bezpośrednio modyfikować.
+* Można użyć dowolnego edytora tekstu, ale zalecany jest Notepad++ z wtyczką do formatowania plików json.
+* Poniższy poradnik wyjaśnia, jak sformatowane są pliki zapisów.
+
+Wyjaśnienie lokalnego folderu modów ⁠Mod Folder/Save Folder
+
+### Przenoszenie bezpiecznych części zapisu do nowego pliku zapisu
+
+* Jeśli nie można zidentyfikować problemu z zapisem, przenieś małe fragmenty do nowego zapisu.
+* Ta metoda może być pomocna przy próbie zidentyfikowania uszkodzonych plików.
+* Na przykład foldery gospodarstw domowych można przeciągać pomiędzy zapisami przy stosunkowo niewielkiej utracie danych.
+* Poniższy poradnik wyjaśnia, jak sformatowane są pliki zapisów.
+
+Wyjaśnienie lokalnego folderu modów ⁠Mod Folder/Save Folder
+
+### Używanie poleceń konsoli do odtworzenia postaci w nowym zapisie
+
+* Gdy wszystko inne zawiedzie, najlepszym rozwiązaniem może być rozpoczęcie od nowego zapisu, ale z pewnym ułatwieniem na początek.
+* Polecenia takie jak `SETMONEY` mogą być używane do dodawania pieniędzy.
+* Poleceń można używać do przywracania umiejętności, przepisów i innych elementów.
+
+Poradnik dotyczący poleceń cheatów ⁠Console and Cheat Commands
+
+---
+
+> **Przed wykonaniem któregokolwiek z tych kroków wykonaj pełną kopię zapasową swoich zapisów gry!**
+
+# „Typowe rozwiązanie”
+
+Metoda spalenia wszystkiego do gołej ziemi, polegająca na usunięciu każdego pliku powiązanego z grą w celu uzyskania możliwie najlepszego świeżego startu. Nie polecam tego rozwiązania w przypadku wszystkich problemów, ponieważ może ono sprawić, że stare zapisy korzystające z modów staną się niemożliwe do uruchomienia bez modów, od których zależą.
+
+## Usunięcie wszystkich plików gry w celu uzyskania świeżego startu
+
+1. Usuń pliki gry, wycinając i wklejając cały lokalny folder modów paralives/paralives na pulpit.
+2. Anuluj subskrypcję wszystkich modów Steam Workshop i usuń wszystkie pozostałe pliki modów.
+3. Sprawdź poprawność plików gry za pomocą Steam lub ponownie zainstaluj grę.
+4. Uruchom ponownie Paralives.
+5. Rozpocznij nowy zapis gry.
+6. Jeśli gra działa poprawnie, stopniowo wycofuj wprowadzone zmiany, aż problem ponownie wystąpi. Wtedy poznasz jego przyczynę.
+
+# Zapobieganie uszkodzeniu danych
+
+## Twórz kopie WSZYSTKIEGO i RÓB TO CZĘSTO
+
+* Wykonuj fizyczną kopię ważnych plików i przechowuj ją w bezpiecznym miejscu, na przykład na pulpicie poza plikami gry.
+* Pliki dostępne dla silnika gry Paralives zawsze mogą ulec uszkodzeniu.
+
+> Uwaga: Polecenie ZIPSAVEFILE utworzy kopię bieżącego zapisu na pulpicie. Jeśli polecenie zostanie użyte dwukrotnie, może nadpisać starą kopię.
+
+Poradnik dotyczący poleceń cheatów ⁠Console and Cheat Commands
+
+`ZIPSAVEFILE` tworzy plik zip bieżącego zapisu na pulpicie
+
+## Czytaj recenzje modów
+
+* I również zostawiaj recenzje!
+* Komentarze dotyczące modów są sposobem, w jaki twórca moda i inni użytkownicy dzielą się informacjami o modach.
+* Jeśli mod wydaje się uszkodzony, poinformuj o tym twórcę, aby mógł go naprawić!
+
+## Wyłącz Steam Cloud
+
+* Steam Cloud świetnie chroni ważne pliki, ale czasami powoduje trudne do wykrycia problemy.
+* Steam Cloud lubi przywracać nieaktualne pliki bez informowania o tym użytkownika i po prostu umieszczać je z powrotem w folderze.
+
+## Prawidłowe usuwanie modów
+
+* Mody dodają do gry odwołania do elementów.
+* Każde wystąpienie tych elementów musi zostać ręcznie usunięte z zapisu gry PRZED usunięciem moda.
+* O wiele łatwiej jest usuwać elementy modów w grze niż poprzez modyfikowanie pliku zapisu.
+* Usuń tę fantazyjną kanapę i ten zabawny sweter, zanim usuniesz mod!
+
+## Aktualizuj sterowniki
+
+* W tym poradniku należy skupić się na sterowniku karty graficznej (GPU).
+* W systemie Windows pobierz aplikację Nvidia lub AMD i instaluj nowy sterownik co kilka miesięcy.
+
+## Aktualizuj system operacyjny
+
+* Tak, fuj, ale jest to ważne!
+* Regularnie uruchamiaj wbudowane narzędzie aktualizacji, takie jak Windows Update.
+
+## Instaluj mody powoli i sprawdzaj zainstalowane mody pojedynczo lub w małych partiach
+
+* Może to pomóc grze w przetwarzaniu każdego pliku bez popełniania błędów.
+
+## Konserwacja sprzętu
+
+* Dbaj o komputer, a on zadba o Ciebie.
+* Instaluj i uruchamiaj bezpiecznie pozyskane oprogramowanie antywirusowe.
+* Sprawdzaj uszkodzenia fizyczne i usuwaj kurz.
+* Uruchamiaj wbudowane programy służące do sprawdzania stanu i stabilności podzespołów.
 
 
-The contents of this repository, source code, documentation, and associated files, may not be used for AI model training, dataset creation, or other machine-learning purposes.
-7. Dodawaj do nowo wyg
+
+Treść tego repozytorium, kod źródłowy, dokumentacja oraz powiązane pliki nie mogą być wykorzystywane do trenowania modeli AI, tworzenia zbiorów danych ani do innych celów związanych z uczeniem maszynowym.
