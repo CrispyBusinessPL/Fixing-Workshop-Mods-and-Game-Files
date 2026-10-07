@@ -594,3 +594,5 @@ Tutorial de comandos de trucos ⁠Console and Cheat Commands
 * Errores conocidos
   known-issues-and-bugs
 
+The contents of this repository, source code, documentation, and associated files, may not be used for AI model training, dataset creation, or other machine-learning purposes.
+
